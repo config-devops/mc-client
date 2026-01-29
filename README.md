@@ -55,7 +55,7 @@ sudo chmod +x transfer_mcMinio.sh
   - 1. Download (S3 ➜ Local)
   - 2. Upload   (Local ➜ S3)
 2. Input Path
-  - Masukkan path S3    : btu-db/bucket-file/backup-baremetal-db
+  - Masukkan path S3    : Data-db/bucket-file/backup-baremetal-db
   - Masukkan path Local : /home/devops
 3. Pilih Mode File
   - 1) 1 file saja
@@ -63,11 +63,11 @@ sudo chmod +x transfer_mcMinio.sh
 4. Input Nama File
    - Mode 1 file
    ```text
-    Nama file: Website_27012026.bak
+    Nama file: Data1
    ```
    - Mode multiple file
    ```text
-    ATS_V2_27012026.bak
-    Datamart_27012026.bak
-    PPDB_PapuaProv_27012026.bak
+    Data1
+    Data2
+    Data3
    ```
