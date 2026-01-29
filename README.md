@@ -40,6 +40,10 @@ mc --version
 
 ```bash
 
-Hallo
+curl -O https://raw.githubusercontent.com/config-devops/mc-client/refs/heads/main/transfer_mcMinio.sh
+
+sudo chmod +x transfer_mcMinio.sh
+
+./transfer_mcMinio.sh
 
 ```
